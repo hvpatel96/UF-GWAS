@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  backend:
+    build:
+      context: ./
+    working_dir: /var/lib/backend/storage/
+    ports:
+      - 8888:80
+    volumes:
+      - app_storage:/var/lib/backend/storage/
+volumes:
+  app_storage:
