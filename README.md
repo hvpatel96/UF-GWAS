@@ -1,1 +1,1 @@
-# easyGWAS
+# UF-GWAS
